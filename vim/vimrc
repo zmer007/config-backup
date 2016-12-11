@@ -1,17 +1,7 @@
-execute pathogen#infect()
 syntax on
-filetype plugin indent on
 inoremap kj <ESC>
-set nobackup  
-set nowb  
-set noswapfile  
 set number
 set tabstop=4
 set shiftwidth=4
 set smartindent
 set autoindent
-
-let g:javascript_plugin_jsdoc = 1
-let g:javascript_plugin_ngdoc = 1
-let g:javascript_plugin_flow = 1
-set foldmethod=syntax
