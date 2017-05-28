@@ -1,2 +1,5 @@
 # 放到.bashrc文件最后可以跟改显示路径方式
 export PS1='${debian_chroot:+($debian_chroot)}\u:\W\$ '
+
+# ubuntu终端下使用默认应用打开某文件
+alias open='xdg-open'
